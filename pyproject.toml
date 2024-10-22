@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ai_makerspace_final_demo"
+version = "0.1.0"
+description = "ai_makerspace_final_demo"
+authors = ["Akash Shetty <akash.shetty@iicontent.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+langchain-openai = "^0.2.0"
+langchain-core = "^0.3.5"
+langchain-experimental = "^0.3.2"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.3"
+flask = "^3.0.3"
+twilio = "^9.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
